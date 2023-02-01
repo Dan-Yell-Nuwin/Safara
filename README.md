@@ -7,7 +7,7 @@ To test the system, download both the python files in the same directory:
 - Then run the `QueueTest.py` file by running either the main or the file
 - To add more tests, add to the method TestFlaskAPI to run the unit tests.
 - IMPORTANT: Make sure you always run `QueueRunner.py` before running `QueueTest.py` each time.
-Otherwise, the tests would not pass and some of the data may be misleading to fail some cases.
+Otherwise, the tests would not pass and some of the data may be misleading and fail some cases.
 - Note: The server runs on http://localhost:5000
 
 ## More Time
