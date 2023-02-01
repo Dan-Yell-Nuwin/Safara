@@ -18,7 +18,6 @@ Otherwise, it will return True
 @app.route('/CreateQueue', methods=['POST'])
 def CreateQueue() -> dict:
     queueName = request.form['queueName']
-    print(queueName)
     if queueName not in queue_data:
         queue_data[queueName] = {'messages': []}
         return {'created': True}
