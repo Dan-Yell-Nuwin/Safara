@@ -16,3 +16,4 @@ it would have been more scaleable to use a db such as sqlite to connect to and
 make queries for each method.
 - Would have also added more tests to test the robustness of each method of the program.
 - Would have also added thread locking features to account for if two clients accessed the API at once.
+- To make this more scalable, making it into a QueueRunner class for other files to use would be useful.
